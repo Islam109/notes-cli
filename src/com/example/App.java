@@ -60,6 +60,9 @@ public class App {
         } else if ("count".equals(cmd)) {
             System.out.println(NotesStore.countNotes());
 
+        } else if ("count".equals(cmd)) {
+            System.out.println(NotesStore.countNotes());
+            
         } else {
             System.err.println("Неизвестная команда: " + cmd);
         }
