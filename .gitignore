@@ -1,0 +1,12 @@
+# Java
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Data
+data/*.csv
+!data/.gitkeep
